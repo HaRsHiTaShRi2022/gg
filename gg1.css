@@ -1,0 +1,73 @@
+html{
+    font-size: 30px;
+}
+p.pinku{
+    text-align:center;
+}
+li{
+    list-style-image: url("dusri.jpg");
+    list-style-position: inside;
+}
+#krotos{
+    float: left;
+    color: rgb(0, 84, 0);
+}
+#kratos ol{
+    background-image: linear-gradient(blue ,purple);
+    max-width: 1300px;
+}
+ul.bulbul{
+    background-image: linear-gradient(green,brown);
+    opacity: 0.6;
+    max-width: 1300px;
+}
+body{
+    background-image: url("_3bdb95d2-8551-4bed-b145-6fb7d1fdb8f2.jpg");
+    color: rgb(52, 0, 0);
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: silver;
+}
+#jj{
+    background-image: radial-gradient(black,silver);
+    color: aqua;
+    float: right;
+    max-width: 110px;
+    margin-left: 40%;
+    margin-right: 0%;
+    padding: 20px 20px 20px 20px;
+    border: 5px dotted cyan;
+}
+nav{
+    background-color: aliceblue;
+    margin: 2%;
+}
+nav ul{
+    margin: 1%;
+    padding: 1%;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a:link, nav ul li a:visited{
+    font-weight: 600;
+    color: black;
+}
+nav ul li a:hover{
+    background-image: radial-gradient(yellow,silver);
+}
+table{
+    padding: 9px,9px,9px,9px;
+    border: solid cyan;
+    caption-side: top;
+    border-collapse: collapse;
+    border-spacing: 9px;
+}
+td,th{
+    border: dotted;
+    border-color: aliceblue;
+    padding: 9px,9px,9px,9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,64 @@
+#table-content{
+    display: table;
+    border-spacing: 10px;
+}
+#row{
+    display: table-row;
+}
+#main{
+    display: table-cell;
+    background-image: radial-gradient(red,yellow);
+    color: black;
+    padding: 15px;
+    font-weight: bolder;
+    text-align: justify;
+    margin: 10px,10px.10px,10px;
+    max-width: 800px;
+}
+#sidebar{
+    display: table-cell;
+    background-image: radial-gradient(blue,green);
+    color: aliceblue;
+    padding: 15px;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 10px,10px.10px,10px;
+    clear: both;
+    max-width: 800px;
+}
+#foot{
+    clear: both;
+    background-image: radial-gradient(pink,purple);
+    color: brown;
+    border: 5px red double;
+    padding: 15px;
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    margin: 10px,10px.10px,10px;
+}
+body{
+    background-image: linear-gradient(black,silver);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: aqua;
+}
+nav{
+    background-color: aliceblue;
+    margin: 2%;
+}
+nav ul{
+    margin: 1%;
+    padding: 1%;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a:link, nav ul li a:visited{
+    font-weight: 600;
+    color: black;
+}
+nav ul li a:hover{
+    background-image: radial-gradient(red,silver);
+}
